@@ -4,24 +4,24 @@ This repo is for self learning of [Ethereum and Solidity: The Complete Developer
 
 For testing,
 
-framework: mocha
-provider: ganache
+- framework: mocha
+- provider: ganache
 
 For deployment,
 
 we use
-provider: truffle HD wallet
-endpoint: [infura api](https://infura.io)
-test net: [rinkeby](https://rinkeby.etherscan.io)
-testing account: [0xc7c452445555e5190d5ef2d3cfccda5f08a3cd1ca](https://rinkeby.etherscan.io/address/0xc7c452445555e5190d5ef2d3cfccda5f08a3cd1c)
+- provider: truffle HD wallet
+- endpoint: [infura api](https://infura.io)
+- test net: [rinkeby](https://rinkeby.etherscan.io)
+- testing account: [0xc7c452445555e5190d5ef2d3cfccda5f08a3cd1ca](https://rinkeby.etherscan.io/address/0xc7c452445555e5190d5ef2d3cfccda5f08a3cd1c)
 
 
 # Useful links
 
-[Demo of blockchain](https://andersbrownworth.com/blockchain/blockchain)
-[Word Phase Explainsion](https://iancoleman.io/bip39/)
-[Getting eth to Rinkeby Testnet](https://faucet.rinkeby.io/)
-[Infura]()https://infura.io)
+- [Demo of blockchain](https://andersbrownworth.com/blockchain/blockchain)
+- [Word Phase Explainsion](https://iancoleman.io/bip39/)
+- [Getting eth to Rinkeby Testnet](https://faucet.rinkeby.io/)
+- [Infura]()https://infura.io)
 
 
 # Configuration
