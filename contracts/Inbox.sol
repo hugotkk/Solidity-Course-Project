@@ -4,7 +4,7 @@ contract Inbox {
 
     string public message;
 
-    constructor(string initialMessage) public {
+    function Inbox(string initialMessage) public {
         message = initialMessage;
 
     }
