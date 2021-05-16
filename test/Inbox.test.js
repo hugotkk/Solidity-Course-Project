@@ -10,6 +10,7 @@ const { interface, bytecode } = require('../compile');
 let accounts;
 let inbox;
 beforeEach(async () => {
+    require('dotenv').config();
     accounts = await web3.eth.getAccounts();
     account = accounts[0];
     inbox = await new web3.eth.Contract(JSON.parse(interface)).deploy({
@@ -38,5 +39,13 @@ describe('Inbox', () => {
         });
         const message = await inbox.methods.message().call();
         assert.equal(message, 'bye');
+    });
+
+    it('defined api_enpoint', () => {
+        assert.ok(process.env.api_endpoint);
+    });
+
+    it('defined word phase', () => {
+        assert.ok(process.env.word_phase);
     });
 });
