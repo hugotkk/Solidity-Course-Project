@@ -1,5 +1,7 @@
 # solidlity_course_pj_inbox
 
+This repo is for self learning of [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/learn/lecture/9020500#questions).
+
 # Configuration
 
 vi .env
